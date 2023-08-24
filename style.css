@@ -1,0 +1,65 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    width: 10%;
+    font-size: large;
+}
+
+#main-nav {
+    width: 80%;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Montserrat';
+    padding: 4%;
+}
+
+
+body {
+    background-color: #BEBFC5;
+}
+
+.alexa {
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    align-items: center;
+    font-size: 300%;
+    padding-bottom: 3%;
+}
+.alexa img {
+    width: 100%;
+    align-items: en;
+}
+
+.products_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* fr = fraction */
+    grid-gap: 20px;
+    padding-bottom: 3%;
+}
+.card {
+    background-color: white;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    align-items: center;
+}
+
+.products_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* fr = fraction */
+    grid-gap: 20px;
+    padding-bottom: 5%;
+}
+
